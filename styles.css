@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio da Eduarda - Desenvolvedora Full Stack</title>
+    <link rel="stylesheet" href="styles.css"> <!-- CSS externo -->
+    <style>
+        body {
+            background-color: #5d5757;
+            font-family: Arial, sans-serif;
+            color: #fff; /* Adicionando cor de texto padrão */
+        }
+        h1 {
+            color: rgb(255, 0, 140);
+        }
+        p {
+            font-size: 16px;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        .projeto {
+            margin: 20px 0;
+            padding: 10px;
+            border: 1px solid #fff; /* Adicionando borda para os projetos */
