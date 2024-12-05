@@ -1,35 +1,151 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio da Eduarda - Desenvolvedora Full Stack</title>
-    <link rel="stylesheet" href="styles.css"> <!-- CSS externo -->
-    <style>
-        body {
-            background-color: #5d5757;
-            font-family: Arial, sans-serif;
-            color: #fff; /* Adicionando cor de texto padrão */
-        }
-        h1 {
-            color: rgb(255, 0, 140);
-        }
-        p {
-            font-size: 16px;
-        }
-        header {
-            text-align: center;
-            padding: 20px;
-        }
-        nav ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        nav ul li {
-            display: inline;
-            margin: 0 15px;
-        }
-        .projeto {
-            margin: 20px 0;
-            padding: 10px;
-            border: 1px solid #fff; /* Adicionando borda para os projetos */
+body {
+    background-color: #5d5757;
+    font-family: Arial, sans-serif;
+    color: #FFFF;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #FF008CFF;
+    margin: 10px;
+}
+
+p {
+    font-size: 16px;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #3b3b3b;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.projeto {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #FFFF;
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #FF008CFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    color: #FFFFFFFF;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #4A4A4A;
+    border-radius: 8px;
+}
+
+.projeto {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #FFF;
+    border-radius: 5px;
+    background-color: #3B3B3B;
+}
+
+.projeto h3 {
+    margin: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+}
+
+input, textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: #FF008CFF;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FF0088;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #3B3B3B;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.habilidades {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.habilidades li:before{
+    content: "-";
+    margin-right: 0.5rem;
+}
