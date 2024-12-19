@@ -4,58 +4,231 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio do Rafael - Desenvolvedor Full Stack</title>
-    
     <link rel="stylesheet" href="src/css/secoes/reset.css">
+    <link rel="stylesheet" href="src/css/secoes/variaveis.css">
     <link rel="stylesheet" href="src/css/secoes/styles.css">
     <link rel="stylesheet" href="src/css/secoes/footer.css">
     <link rel="stylesheet" href="src/css/secoes/header.css">
+    <link rel="stylesheet" href="src/css/secoes/home.css">
     <link rel="stylesheet" href="src/css/secoes/projetos.css">
+    <link rel="stylesheet" href="src/css/secoes/sobre.css">
     <link rel="stylesheet" href="src/css/secoes/habilidades.css">
+        <!-- Link para o Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!--logo-->
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    </head>
+    
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#habilidades">Habilidades</a></li>
-                <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-        </nav>
-        <h1>Rafael</h1>
-        <h2>Desenvolvedor Full Stack</h2>
-        <p>Transformando ideias em realidade através da tecnologia.</p>
-    </header>
-    <section id="sobre">
-            <h2>Sobre Mim</h2>
-            <p>Sou um desenvolvedor full stack apaixonado por criar soluções inovadoras e eficientes.
-                Com experiência em diversas tecnologias e uma forte paixão por aprendizado contínuo, estou sempre em busca
-                de novos desafios.</p>
-        </section>
-        
-        </div>
-    
-        <section id="habilidades">
-            <h2>Habilidades</h2>
-            <ul class="habilidades">
-                <li>HTML, CSS, JavaScript</li>
-                <li>React, Angular, Vue.js</li>
-                <li>Node.js, Express, MongoDB</li>
-                <li>Python, Django, Flask</li>
-                <li>Git, Docker, RESTful APIs</li>
-            </ul>
-        </section>
+    <main>
+        <header class="header">
+            <div class="container">
+                <div class="row justify-content alinhar-itens-centro">
+                    <a href="#">
+                        <h1 class="logo">RGW</h1>
+                    </a>
+                    <nav>
+                        <input id="menu-portifolio" type="checkbox">
+                        <label for="menu-portifolio">
+                            <div class="menu">
+                                <span class="portifolio"></span>
+                            </div>
 
-        <section id="projetos">
-            <h2>Projetos</h2>
-            <div class="projeto">
-                <h3>Projeto 1</h3>
-                <p>Descrição do projeto 1. Tecnologias utilizadas: HTML, CSS, JavaScript.</p>
+                        </label>
+                        <ul>
+                            <li><a href="#sobre">Sobre</a></li>
+                            <li><a href="#habilidades">Habilidades</a></li>
+                            <li><a href="#projetos">Projetos</a></li>
+                            <li><a href="#contato">Contato</a></li>
+                        </ul>
+                    </nav>
             </div>
-        </section>
-        <footer>
-            <h1>Rodapé</h1>
-        </footer>
+        </div>
+        </header>
 
+        <section class="home">
+            <div class="container">
+                <div class="row full-screen alinhar-itens-centro">
+                   <div class="text-name">
+                    <h1>Rafael Grellert Wiegand</h1>
+                    <h2>Transformando ideias em realidade através da tecnologia.</h2>
+
+                    <div class="redes-sociais">
+                        <a target="_blank" href="https://www.linkedin.com/in/rafael-wiegand-87777b268/" class="outer-shadow">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="outer-shadow">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="#" class="outer-shadow">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" class="outer-shadow">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                   </div>          
+                </div>
+                <div class="img-home">
+                    <div class="img-box inner-shadow">
+                        <img src="src/image/img-portifolio.png" alt="foto de perfil" class="outer-shadow">
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+
+    <section class="sobre-mim section" id="sobre">
+
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2>Sobre</h2> 
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="image-sobre-mim">
+                <div class="img-box ">
+                        <div class="img-box inner-shadow">
+                            <img src="src/image/img-portifolio.png" alt="foco de perfil" class="outer-shadow">
+                        </div>
+                    </div>
+                </div>
+                    <div class="informacoes-sobre-mim">
+                        <strong>Sou um desenvolvedor Web e apaixonado por criar soluções inovadoras e eficientes.</strong>
+
+                        <p>Profissional dedicado e apaixonado por soluções tecnológicas, com experiência em desenvolvimento de software, administração de sistemas, infraestrutura de TI e suporte técnico. Minha missão é combinar conhecimento técnico com uma abordagem centrada no cliente para oferecer soluções eficientes e inovadoras que agreguem valor aos negócios.</p>
+                        <p>obrigdo</p>
+    
+                        <div class="botoes">
+                             <a target="_blank" href="src/arquivo/rafael.cv.pdf" class="botao outer-shadow">Veja meu CV</a>
+                        </div>
+                    
+                
+            </div>
+        </div>
+</section>
+<section class="habilidades section" id="habilidades">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title">
+                        <h2>Habilidades</h2>
+                    </div>
+                </div>
+            </div>
+        <div class="container-habilidades row">
+          <div class="habilidade">
+            <div class="logo">   
+                <i class="devicon devicon-javascript-plain "></i>
+            </div>
+            <h3>JavaScript</h3>
+            <p>Domínio de sintaxe básica, manipulação de tipos de dados, operadores e estruturas de controle.Interação com a árvore DOM, criação, modificação e remoção de elementos HTML, e manipulação de eventos</p>
+          </div>  
+          <div class="habilidade">
+            <div class="logo">    
+                <i class="devicon devicon-html5-plain-wordmark "></i>
+            </div>
+            <h3>HTML5</h3>
+            <p>Criação de páginas web semânticas utilizando tags HTML5 como header, footer, article, section, nav e  aside!</p>
+          </div>  
+          <div class="habilidade">
+            <div class="logo">    
+                <i class="devicon devicon-css3-plain "></i> 
+            </div>
+            <h3>CSS3</h3>
+            <p> Criação de layouts adaptáveis usando media queries, técnicas de mobile-first e design fluido para otimizar a visualização em diversos dispositivos!</p>
+          </div> 
+          <div class="habilidade">
+            <div class="logo">    
+                <i class="devicon devicon-github-original "></i>
+            </div>
+            <h3>GitHub</h3>
+            <p> Experiência no uso de Git para gerenciar versões de código, rastrear alterações e colaborar com equipes em projetos de desenvolvimento!</p>
+          </div> 
+          <div class="habilidade">
+            <div class="logo">    
+                <i class="devicon devicon-git-plain "></i>
+            </div>
+            <h3>Git</h3>
+            <p>Experiência com Git para gerenciar versões de código, garantindo um histórico de alterações claro e rastreável em projetos de diferentes tamanhos!</p>
+          </div> 
+        </div>  
+    
+ 
+    </section>
+
+    <section class="projetos" id="projetos">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2>Meus Projetos</h2>
+                </div>
+            </div>
+        </div>
+        <div class="container-projetos container">
+            <div class="projeto">
+                <a href="#">
+                    <img src="https://via.placeholder.com/515x700" alt="projeto 1">
+                    <h3>Projeto 1</h3>
+                    <div class="informacoes-projeto">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                        <p>Ver no GitHub Pages</p>
+                    </div>
+                </a>
+            </div>
+            <div class="projeto">
+                <a href="#">
+                    <img src="https://via.placeholder.com/515x700" alt="projeto 2">
+                    <h3>Projeto 2</h3>
+                    <div class="informacoes-projeto">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                        <p>Ver no GitHub Pages</p>
+                    </div>
+                </a>
+            </div>
+            <div class="projeto">
+                <a href="#">
+                    <img src="https://via.placeholder.com/515x700" alt="projeto 3">
+                    <h3>Projeto 3</h3>
+                    <div class="informacoes-projeto">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                        <p>Ver no GitHub Pages</p>
+                    </div>
+                </a>
+            </div>
+            <div class="projeto">
+                <a href="#">
+                    <img src="https://via.placeholder.com/515x700" alt="projeto 4">
+                    <h3>Projeto 4</h3>
+                    <div class="informacoes-projeto">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                        <p>Ver no GitHub Pages</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" id="contato">
+        <div class="container">
+            <h2>Me envie uma mensagem!</h2>
+            <div class="redes-sociais">
+                <a target="_blank" href="https://www.linkedin.com/in/rafael-wiegand-87777b268/" class="outer-shadow">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="#" class="outer-shadow">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                <a href="#" class="outer-shadow">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="#" class="outer-shadow">
+                    <i class="fab fa-instagram"></i>
+                </a>     
+            </div>
+        </div>
+    </footer>
+    </main>
     <script src="./src/js/index.js"></script>
 </body>
